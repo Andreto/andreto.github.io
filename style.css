@@ -1,0 +1,86 @@
+body{
+  margin: 0;
+}
+
+.content{
+  margin: 1em;
+}
+
+
+.navbar{
+  margin: auto;
+  max-width: 1000px;
+}
+.nav-fill{
+  width: 100%;
+  background-color: #333;
+}
+.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.nav-item {
+  float: left;
+}
+.nav-item a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 24px 26px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav-text a {
+  font-size: 34px;
+  padding: 14px 26px;
+  padding-left: 12px;
+  color: #fff;
+}
+.nav-img a{
+  padding: 0px 0px;
+}
+.nav-item a:hover {
+  color: darkorange;
+}
+.nav-text a:hover {
+  color: #fff;
+}
+.nav-right {
+	float: right;
+}
+
+
+.grid-container {
+    display: grid;
+    margin: auto;
+    max-width: 1002px;
+}
+.grid-container--fit {
+    grid-template-columns: repeat(auto-fit, minmax(496px, 1fr));
+}
+.grid-element {
+  padding: 0px;
+  margin: 6px;
+  color: #1f1f1f;
+}
+.ge-img {
+  background-color: deepPink;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.ge-text {
+  background-color: #ffffff00;
+  height: 80px;
+  padding-top: 2px;
+  font-size: 36px;
+  font-family: 'Roboto Slab', serif;
+  text-decoration: underline;
+}
+.grid-element:hover {
+  color: darkorange;
+}
