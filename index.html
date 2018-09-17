@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width">
     <title>Andreto</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="content.json"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
   </head>
   <body>
@@ -24,36 +23,14 @@
     </div>
 
     <div class="content container">
-      <div class="grid-container grid-container--fit">
-        <a class="grid-element" id="testOne" href="https://scratch.mit.edu/projects/224251946/">
-          <div class="ge-img" style="background-image: url(https://cdn2.scratch.mit.edu/get_image/project/224251946_480x360.png);"></div>
-          <div class="ge-text">A Walk In The Park</div>
-        </a>
-
-        <a class="grid-element" id="testOne" href="https://scratch.mit.edu/projects/220972573/">
-          <div class="ge-img" style="background-image: url(https://cdn2.scratch.mit.edu/get_image/project/220972573_480x360.png);"></div>
-          <div class="ge-text">Happy Birthday Scratch</div>
-        </a>
-
-        <a class="grid-element" id="testOne" href="https://scratch.mit.edu/projects/217815588/">
-          <div class="ge-img" style="background-image: url(https://cdn2.scratch.mit.edu/get_image/project/217815588_480x360.png);"></div>
-          <div class="ge-text">Honor of Avicii</div>
-        </a>
-
-        <a class="grid-element" id="testOne" href="https://scratch.mit.edu/projects/182797742/">
-          <div class="ge-img" style="background-image: url(https://cdn2.scratch.mit.edu/get_image/project/182797742_480x360.png);"></div>
-          <div class="ge-text">Interactive Haloween Art</div>
-        </a>
-
-        <a class="grid-element" id="testOne" href="https://scratch.mit.edu/projects/179282350/">
-          <div class="ge-img" style="background-image: url(https://cdn2.scratch.mit.edu/get_image/project/179282350_480x360.png);"></div>
-          <div class="ge-text">Calculator</div>
-        </a>
+      <div class="grid-container grid-container--fit" id="main-grid">
       </div>
     </div>
 
 
 
     <script src="main.js"></script>
+    <script src="content.js"></script>
+    <script>loadContent();</script>
   </body>
 </html>
