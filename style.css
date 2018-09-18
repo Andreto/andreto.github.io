@@ -53,6 +53,24 @@ body{
 	float: right;
 }
 
+.footer {
+  background-color: #757b87;
+  width: 100%;
+  height: 80px;
+  display: block;
+  text-align: center;
+  padding-top: 40px;
+}
+.footer-item {
+  margin: 0 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+.footer-item:hover {
+  color: darkorange;
+}
+
 
 .grid-container {
     display: grid;
