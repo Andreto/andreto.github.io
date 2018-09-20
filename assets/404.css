@@ -1,0 +1,29 @@
+body{}
+
+
+.content-align{
+  width: 100%;
+  padding-top: 200px;
+}
+.content{
+  margin: auto;
+  width: 600px;
+  font-family: Calibri;
+}
+
+#error-text{
+  font-size: 64px;
+  color: #21252b;
+  font-weight: bold;
+}
+#error-discr{
+  font-size: 34px;
+  color: #757b87;
+}
+#back-link{
+  color: darkorange;
+  text-decoration: none;
+}
+#back-link:hover{
+  text-decoration: underline;
+}
