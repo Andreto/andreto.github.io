@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <link href="assets/404.css" rel="stylesheet" type="text/css" />
@@ -6,11 +7,23 @@
     <div class="content-align">
       <div class="content">
         <div id="error-text">Error 404,</div><br>
-        <div id="error-discr">
+        <div class="error-discr">
           Page was not found, Try go back to
           <a id="back-link" href="https://andreto.github.io">andreto.github.io</a>
-        </div>
-      <div>
+        </div><br>
+        <div class="or">or</div><br>
+        <div class="error-discr">Check out this project:</div>
+        <a id="project-elem"></a>
+      </div>
     </div>
+
+    <script src="assets/content.js"></script>
+    <script>
+
+      var projectElem = document.getElementById("project-elem");
+      var object = content["content"][(content["content-list"][Math.floor(Math.random() * 3)])];
+      projectElem.style=("background-image:url("+object["img"]+");");
+      projectElem.href=object["link"];
+    </script>
   </body>
 </html>

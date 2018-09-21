@@ -3,20 +3,37 @@ body{}
 
 .content-align{
   width: 100%;
-  padding-top: 200px;
+  padding-top: 140px;
 }
 .content{
+  position: relative;
   margin: auto;
-  width: 600px;
+  width: 520px;
   font-family: Calibri;
+}
+
+.or {
+  font-size: 28px;
+  color: #282c34;
+}
+
+#project-elem {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 160px;
+  height: 120px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #error-text{
   font-size: 64px;
-  color: #21252b;
+  color: #282c34;
   font-weight: bold;
 }
-#error-discr{
+.error-discr{
   font-size: 34px;
   color: #757b87;
 }
