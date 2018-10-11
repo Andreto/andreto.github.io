@@ -5,6 +5,9 @@ body{
 .content{
   margin: 1em;
 }
+.content-adjuster{
+  margin: auto;
+}
 
 
 .navbar{
@@ -54,6 +57,7 @@ body{
 }
 
 .footer {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #757b87;
   width: 100%;
   height: 80px;
@@ -63,11 +67,21 @@ body{
 }
 .footer-item {
   margin: 0 10px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #fff;
   text-decoration: none;
 }
 .footer-item:hover {
+  color: darkorange;
+}
+#footerGoogleAnalyticsInfo {
+  margin-top: 20px;
+  color: #b6bbc4;
+}
+.link-stelth {
+  color: inherit;
+  text-decoration: none;
+}
+.link-stelth:hover {
   color: darkorange;
 }
 
