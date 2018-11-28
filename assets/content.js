@@ -8,6 +8,11 @@ var content = {
     "Calculator"
   ],
   "content":{
+    "SuperTyper":{
+      "img":"https://i.ibb.co/LP2tqCp/Supertyper.png",
+      "title":"Supertyper",
+      "link":"https://andreto.github.io/p/SuperTyper/"
+    },
     "Endless Buttons":{
       "img":"https://image.ibb.co/cJ21NK/click_me.jpg",
       "title":"Endless Buttons",
