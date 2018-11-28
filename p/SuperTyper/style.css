@@ -1,6 +1,10 @@
 body{
   margin: 0;
   overflow: hidden;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input, textarea, select {
+    outline: none;
 }
 
 #aligner{
@@ -9,7 +13,6 @@ body{
 }
 
 #letter-holder{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 12em;
   color: #c4546e;
 }
@@ -26,8 +29,26 @@ td, th {
   position: fixed;
   right: 0px;
   bottom: 0px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #fff;
   background-color: #c4546e;
   border-top-left-radius: 60px;
+}
+
+#mode-selector {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  font-size: 2em;
+  padding: 10px;
+  border: solid 2px #c4546e;
+  color: #c4546e;
+}
+#mode-selector option {
+  color: #c4546e;
+  background-color: #fff;
+}
+
+select:focus > option:checked {
+    background: #c4546e !important;
+    color: #fff !important;
 }

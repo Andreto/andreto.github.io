@@ -2,37 +2,49 @@ var wrong = 0;
 var total = 0;
 var speed = 0;
 var lastTime = 0;
+var mode = 0;
+var possible = "abcdefghijklmnopqrstuvwxyz";
 
-function loadChars(){
-  var possible = "abcdefghijklmnopqrstuvwxyz";
-  var letters = "";
-  for (i = 0; i < 20; i++) {
-    letters += possible.charAt(Math.floor(Math.random() * possible.length));
-  }
-  document.getElementById("letter-holder").innerHTML = letters;
+function selectMode(){
+  mode =  document.getElementById("mode-selector").value
+  loadChars('');
 }
+
+function loadChars(chars){
+  while (chars.length < 20){
+    var loadFunctions = [
+    (words[Math.floor(Math.random()*words.length)] + "_"),
+    (possible.charAt(Math.floor(Math.random() * possible.length))),
+  ]
+    chars += loadFunctions[mode];
+  }
+  document.getElementById("letter-holder").innerHTML = chars;
+}
+
+
 
 function updateLetters(event){
   s = document.getElementById("letter-holder").innerHTML;
   var possible = "abcdefghijklmnopqrstuvwxyz";
   var key = event.which || event.keyCode;
   total = total+1
+  console.log(key)
 
-  if (String.fromCharCode(key) == s[0]){
+  if ((String.fromCharCode(key) == s[0]) || (key==32 && s[0]=="_")){
     s = s.substring(1);
-    s += possible.charAt(Math.floor(Math.random() * possible.length));
-    document.getElementById("letter-holder").innerHTML = s;
+    loadChars(s);
 
-      var d = new Date();
+    var d = new Date();
 
-      if (lastTime == 0){
-        lastTime = Math.round(d.getTime()/100)/10;
-      }else{
-        speed = (speed*(total-1)+((Math.round(d.getTime()/100)/10)-lastTime))/total;
-        lastTime = (Math.round(d.getTime()/100)/10);
-      }
+    if (lastTime == 0){
+      lastTime = Math.round(d.getTime()/100)/10;
+    }else{
+      speed = (speed*(total-1)+((Math.round(d.getTime()/100)/10)-lastTime))/total;
+      lastTime = (Math.round(d.getTime()/100)/10);
+    }
 
   }else{
+
     wrong = wrong+1
   }
 

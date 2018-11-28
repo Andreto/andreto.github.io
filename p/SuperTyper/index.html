@@ -3,10 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
+    <title>SuperTyper</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-  <body onkeypress="updateLetters(event)" onload="loadChars();">
+  <body onkeypress="updateLetters(event);" onload="loadChars('');">
+    <select id="mode-selector" onchange="selectMode();">
+      <option value="0">Words</option>
+      <option value="1">Letters</option>
+    </select>
+
     <div id="aligner">
       <div id="letter-holder">abcdefghijklmnopqrstuvwxyz</div>
     </div>
@@ -22,6 +27,7 @@
       </tr>
     </table>
 
+    <script src="words.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
