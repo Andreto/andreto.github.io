@@ -1,11 +1,12 @@
 var content = {
   "content-list":[
+    "SuperTyper",
     "Endless Buttons",
     "A Walk In The Park",
     "Happy Birthday Scratch",
     "Honor of Avicii",
-    "Interactive Haloween Art",
-    "Calculator"
+    "Calculator",
+    "Interactive Haloween Art"
   ],
   "content":{
     "SuperTyper":{
