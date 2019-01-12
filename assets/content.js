@@ -9,6 +9,11 @@ var content = {
     "Interactive Haloween Art"
   ],
   "content":{
+    "BubbleBPM":{
+      "img":"https://andreto.github.io/assets/thumbnails/BubbleBPM.png",
+      "title":"Bubble BPM",
+      "link":"https://andreto.github.io/BubbleBPM/"
+    },
     "SuperTyper":{
       "img":"https://i.ibb.co/LP2tqCp/Supertyper.png",
       "title":"Supertyper",
@@ -43,11 +48,6 @@ var content = {
       "img":"https://cdn2.scratch.mit.edu/get_image/project/179282350_480x360.png",
       "title":"Calculator",
       "link":"https://scratch.mit.edu/projects/179282350/"
-    }
-    "BubbleBPM":{
-      "img":"https://andreto.github.io/assets/thumbnails/BubbleBPM.png",
-      "title":"Bubble BPM",
-      "link":"https://andreto.github.io/BubbleBPM/"
     }
   }
 }
