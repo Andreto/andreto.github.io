@@ -44,5 +44,10 @@ var content = {
       "title":"Calculator",
       "link":"https://scratch.mit.edu/projects/179282350/"
     }
+    "BubbleBPM":{
+      "img":"https://andreto.github.io/assets/thumbnails/BubbleBPM.png",
+      "title":"Bubble BPM",
+      "link":"https://andreto.github.io/BubbleBPM/"
+    }
   }
 }
