@@ -1,12 +1,12 @@
 var content = {
   "content-list":[
+    "BubbleBPM",
     "SuperTyper",
     "Endless Buttons",
     "A Walk In The Park",
     "Happy Birthday Scratch",
     "Honor of Avicii",
-    "Calculator",
-    "Interactive Haloween Art"
+    "Calculator"
   ],
   "content":{
     "BubbleBPM":{
