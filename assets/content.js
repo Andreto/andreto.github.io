@@ -17,12 +17,12 @@ var content = {
     "SuperTyper":{
       "img":"https://i.ibb.co/LP2tqCp/Supertyper.png",
       "title":"Supertyper",
-      "link":"https://andreto.github.io/p/SuperTyper/"
+      "link":"https://andreto.github.io/SuperTyper/"
     },
     "Endless Buttons":{
       "img":"https://image.ibb.co/cJ21NK/click_me.jpg",
       "title":"Endless Buttons",
-      "link":"https://andreto.github.io/p/EndlessButtons/"
+      "link":"https://andreto.github.io/EndlessButtons/"
     },
     "A Walk In The Park":{
       "img":"https://cdn2.scratch.mit.edu/get_image/project/224251946_480x360.png",
