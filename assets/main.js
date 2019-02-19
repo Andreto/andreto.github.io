@@ -12,6 +12,12 @@ function loadContent() {
   }
 }
 
+function httpsRedirect() {
+  if window.location.protocol === "http:"{
+    window.location.href = "https://andreto.tk"
+  }
+}
+
 function getLatestScratch() {
   var url = "http://api.spitcast.com/api/spot/forecast/1/";
   var url_wind = "http://api.spitcast.com/api/county/wind/orange-county/";
@@ -25,7 +31,7 @@ function getLatestScratch() {
 }
 
 
-function togleContent(n){
+function togleContent(n) {
   $("#cont-switch-indicator-" + ["prjct", "prtfl"][n]).removeClass("inactive");
   $("#cont-switch-indicator-" + ["prtfl", "prjct"][n]).addClass("inactive");
 }
