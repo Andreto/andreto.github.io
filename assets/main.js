@@ -12,12 +12,6 @@ function loadContent() {
   }
 }
 
-function httpsRedirect() {
-  if window.location.protocol === "http:"{
-    window.location.href = "https://andreto.tk"
-  }
-}
-
 function getLatestScratch() {
   var url = "http://api.spitcast.com/api/spot/forecast/1/";
   var url_wind = "http://api.spitcast.com/api/county/wind/orange-county/";
