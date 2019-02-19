@@ -23,3 +23,9 @@ function getLatestScratch() {
 
   });
 }
+
+
+function togleContent(n){
+  $("#cont-switch-indicator-" + ["prjct", "prtfl"][n]).removeClass("inactive");
+  $("#cont-switch-indicator-" + ["prtfl", "prjct"][n]).addClass("inactive");
+}
