@@ -115,6 +115,7 @@ body{
     grid-template-columns: repeat(auto-fit, minmax(496px, 1fr));
 }
 .grid-element {
+  position: relative;
   padding: 0px;
   margin: 6px;
   color: #1f1f1f;
@@ -134,7 +135,20 @@ body{
   font-family: 'Roboto Slab', serif;
   text-decoration: underline;
 }
-.grid-element:hover {
+.ge-type{
+  position: absolute;
+  bottom: 82px;
+  right: 0;
+  padding: 6px 20px;
+  text-align: center;
+  font-family: Calibri;
+  font-size: 16px;
+  border-radius: 7px 0 0 0;
+  color: #fff;
+  background-color: #00000075;
+}
+
+.grid-element:hover .ge-text {
   color: darkorange;
 }
 
