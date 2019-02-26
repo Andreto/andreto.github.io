@@ -1,5 +1,6 @@
 var content = {
   "content-list":[
+    "gobocf",
     "BubbleBPM",
     "SuperTyper",
     "Endless Buttons",
