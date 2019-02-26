@@ -9,23 +9,29 @@ var content = {
     "Calculator"
   ],
   "content":{
+    "gobocf":{
+      "img":"https://andreto.tk/assets/thumbnails/gobocf.png",
+      "title":"gobo.cf",
+      "type":"External Web Page <i class='fas fa-external-link-alt'></i>",
+      "link":"https://gobo.cf"
+    },
     "BubbleBPM":{
-      "img":"https://andreto.github.io/assets/thumbnails/BubbleBPM.png",
+      "img":"https://andreto.tk/assets/thumbnails/BubbleBPM.png",
       "title":"Bubble BPM",
       "type":"Web Aplication",
-      "link":"https://andreto.github.io/BubbleBPM/"
+      "link":"https://andreto.tk/BubbleBPM/"
     },
     "SuperTyper":{
       "img":"https://i.ibb.co/LP2tqCp/Supertyper.png",
       "title":"Supertyper",
       "type":"Web Aplication",
-      "link":"https://andreto.github.io/SuperTyper/"
+      "link":"https://andreto.tk/SuperTyper/"
     },
     "Endless Buttons":{
       "img":"https://image.ibb.co/cJ21NK/click_me.jpg",
       "title":"Endless Buttons",
       "type":"Web Aplication",
-      "link":"https://andreto.github.io/EndlessButtons/"
+      "link":"https://andreto.tk/EndlessButtons/"
     },
     "A Walk In The Park":{
       "img":"https://cdn2.scratch.mit.edu/get_image/project/224251946_480x360.png",
