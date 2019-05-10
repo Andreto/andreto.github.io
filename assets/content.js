@@ -5,12 +5,18 @@ var content = {
     "BubbleBPM",
     "SuperTyper",
     "Endless Buttons",
+    "pewdiepietheme",
     "A Walk In The Park",
     "Happy Birthday Scratch",
-    "Honor of Avicii",
-    "Calculator"
   ],
   content: {
+    pewdiepietheme: {
+      img: "https://andreto.tk/assets/thumbnails/PewDiePieCurves.png",
+      title: "Pewdiepie Chrome Theme",
+      type: "Chrome Theme",
+      link:
+        "https://chrome.google.com/webstore/detail/subscribe-to-pewdiepie/hfkacekdehgbfkoeocipbagmaepoibba"
+    },
     CustomHighlight: {
       img: "https://andreto.tk/assets/thumbnails/CustomHighlight.png",
       title: "Custom Highlight",
