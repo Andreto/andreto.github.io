@@ -1,5 +1,6 @@
 var content = {
   "content-list":[
+    "CustomHighlight",
     "gobocf",
     "BubbleBPM",
     "SuperTyper",
@@ -10,6 +11,12 @@ var content = {
     "Calculator"
   ],
   "content":{
+    "CustomHighlight":{
+      "img":"https://andreto.tk/assets/thumbnails/CustomHighlight.png",
+      "title":"Custom Highlight",
+      "type":"Chrome Extension",
+      "link":"https://chrome.google.com/webstore/detail/custom-highlight/bmhaflbnleckffaacepbbbonfookcedm"
+    },
     "gobocf":{
       "img":"https://andreto.tk/assets/thumbnails/gobocf.png",
       "title":"gobo.cf",
