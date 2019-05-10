@@ -7,7 +7,7 @@ var content = {
     "Endless Buttons",
     "pewdiepietheme",
     "A Walk In The Park",
-    "Happy Birthday Scratch",
+    "Happy Birthday Scratch"
   ],
   content: {
     pewdiepietheme: {
