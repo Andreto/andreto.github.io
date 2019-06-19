@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  font-family: Open Sans;
 }
 
 .content{
@@ -16,32 +17,31 @@ body{
 }
 .nav-fill{
   width: 100%;
-  background-color: #282c34;
+  background-color: #fff;
 }
 .nav-bar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #282c34;
+  background-color: #fff;
 }
 .nav-item {
   float: left;
 }
 .nav-item a {
   display: block;
-  color: #fff;
+  color: #282c34;
   text-align: center;
   padding: 24px 26px;
   text-decoration: none;
   font-size: 16px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .nav-text a {
   font-size: 34px;
   padding: 14px 26px;
   padding-left: 12px;
-  color: #fff;
+  color: #282c34;
 }
 .nav-img a{
   padding: 0px 0px;
@@ -50,14 +50,17 @@ body{
   color: darkorange;
 }
 .nav-text a:hover {
-  color: #fff;
+  color: #282c34;
 }
 .nav-right {
 	float: right;
 }
+.nav-right a {
+  padding: 21px 4px;
+  font-size: 26px;
+}
 
 .footer {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #757b87;
   width: 100%;
   height: 80px;
@@ -89,7 +92,6 @@ body{
   margin: auto;
   text-align: center;
   margin-bottom: 62px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 22px;
   background-color: #ffffff00;
   border: none;
