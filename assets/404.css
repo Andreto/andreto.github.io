@@ -1,11 +1,11 @@
-body{}
+body {
+}
 
-
-.content-align{
+.content-align {
   width: 100%;
   padding-top: 140px;
 }
-.content{
+.content {
   position: relative;
   margin: auto;
   width: 520px;
@@ -28,19 +28,19 @@ body{}
   background-position: center;
 }
 
-#error-text{
+#error-text {
   font-size: 64px;
   color: #282c34;
   font-weight: bold;
 }
-.error-discr{
+.error-discr {
   font-size: 34px;
   color: #757b87;
 }
-#back-link{
+#back-link {
   color: darkorange;
   text-decoration: none;
 }
-#back-link:hover{
+#back-link:hover {
   text-decoration: underline;
 }
