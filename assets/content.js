@@ -3,6 +3,7 @@ var content = {
     "CustomHighlight",
     "gobocf",
     "BubbleBPM",
+    "cufeap",
     "SuperTyper",
     "Endless Buttons",
     "pewdiepietheme",
@@ -29,6 +30,12 @@ var content = {
       title: "gobo.cf",
       type: "External Web Page <i class='fas fa-external-link-alt'></i>",
       link: "https://gobo.cf"
+    },
+    cufeap: {
+      img: "https://andreto.tk/assets/thumbnails/CufeaP.png",
+      title: "CufeaP",
+      type: "Scratch Tool",
+      link: "https://andreto.tk/CufeaP/"
     },
     BubbleBPM: {
       img: "https://andreto.tk/assets/thumbnails/BubbleBPM.png",
