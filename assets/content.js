@@ -32,7 +32,7 @@ var content = {
       link: "https://gobo.cf"
     },
     cufeap: {
-      img: "https://andreto.tk/assets/thumbnails/CufeaP.png",
+      img: "https://andreto.tk/scratchtools/assets/thumbnails/CufeaP.png",
       title: "CufeaP",
       type: "Scratch Tool",
       link: "https://andreto.tk/CufeaP/"
