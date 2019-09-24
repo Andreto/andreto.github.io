@@ -4,12 +4,12 @@ body {
 }
 
 .content {
+  padding-top: 62px;
   margin: 1em;
 }
 .content-adjuster {
   margin: auto;
 }
-
 .navbar {
   margin: auto;
   max-width: 1000px;
@@ -17,6 +17,11 @@ body {
 .nav-fill {
   width: 100%;
   background-color: #fff;
+  box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.4);
+  transition: box-shadow 0.2s;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 .nav-bar {
   list-style-type: none;
