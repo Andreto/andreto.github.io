@@ -1,7 +1,6 @@
 var content = {
   "content-list": [
     "CustomHighlight",
-    "gobocf",
     "BubbleBPM",
     "cufeap",
     "SuperTyper",
