@@ -11,48 +11,47 @@ var content = {
   ],
   content: {
     pewdiepietheme: {
-      img: "https://andreto.tk/assets/thumbnails/PewDiePieCurves.png",
+      img: "https://andreto.github.io/assets/thumbnails/PewDiePieCurves.png",
       title: "Pewdiepie Chrome Theme",
       type: "Chrome Theme",
       link:
         "https://chrome.google.com/webstore/detail/subscribe-to-pewdiepie/hfkacekdehgbfkoeocipbagmaepoibba"
     },
     CustomHighlight: {
-      img: "https://andreto.tk/assets/thumbnails/CustomHighlight.png",
+      img: "https://andreto.github.io/assets/thumbnails/CustomHighlight.png",
       title: "Custom Highlight",
       type: "Chrome Extension",
-      link:
-        "https://chrome.google.com/webstore/detail/custom-highlight/bmhaflbnleckffaacepbbbonfookcedm"
+      link:"https://andreto.github.io/CustomHighlight/"
     },
     gobocf: {
-      img: "https://andreto.tk/assets/thumbnails/gobocf.png",
+      img: "https://andreto.github.io/assets/thumbnails/gobocf.png",
       title: "gobo.cf",
       type: "External Web Page <i class='fas fa-external-link-alt'></i>",
       link: "https://gobo.cf"
     },
     cufeap: {
-      img: "https://andreto.tk/scratchtools/assets/CufeaP.png",
+      img: "https://andreto.github.io/scratchtools/assets/CufeaP.png",
       title: "CufeaP",
       type: "Scratch Tool",
-      link: "https://andreto.tk/CufeaP/"
+      link: "https://andreto.github.io/CufeaP/"
     },
     BubbleBPM: {
-      img: "https://andreto.tk/assets/thumbnails/BubbleBPM.png",
+      img: "https://andreto.github.io/assets/thumbnails/BubbleBPM.png",
       title: "Bubble BPM",
       type: "Web Aplication",
-      link: "https://andreto.tk/BubbleBPM/"
+      link: "https://andreto.github.io/BubbleBPM/"
     },
     SuperTyper: {
       img: "https://i.ibb.co/LP2tqCp/Supertyper.png",
       title: "Supertyper",
       type: "Web Aplication",
-      link: "https://andreto.tk/SuperTyper/"
+      link: "https://andreto.github.io/SuperTyper/"
     },
     "Endless Buttons": {
       img: "https://image.ibb.co/cJ21NK/click_me.jpg",
       title: "Endless Buttons",
       type: "Web Aplication",
-      link: "https://andreto.tk/EndlessButtons/"
+      link: "https://andreto.github.io/EndlessButtons/"
     },
     "A Walk In The Park": {
       img:
