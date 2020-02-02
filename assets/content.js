@@ -21,7 +21,7 @@ var content = {
       img: "https://andreto.github.io/assets/thumbnails/CustomHighlight.png",
       title: "Custom Highlight",
       type: "Chrome Extension",
-      link: "https://andreto.github.io/CustomHighlight/"
+      link: "https://andreto.github.io/Custom-Highlight/"
     },
     gobocf: {
       img: "https://andreto.github.io/assets/thumbnails/gobocf.png",
