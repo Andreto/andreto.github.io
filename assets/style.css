@@ -37,11 +37,12 @@ body {
   display: block;
   color: #282c34;
   text-align: center;
-  padding: 24px 26px;
+  padding: 30px 26px 18px 26px;
   text-decoration: none;
   font-size: 16px;
 }
 .nav-text a {
+  font-family: "Segoe UI", Tahoma, sans-serif;
   font-size: 34px;
   padding: 14px 26px;
   padding-left: 12px;
@@ -63,7 +64,16 @@ body {
   padding: 21px 4px;
   font-size: 26px;
 }
+#andreto-text-icon {
+  height: 42px;
+  margin-bottom: -8px;
+}
 
+.page-up-arrow {
+  height: 40px;
+  margin: auto;
+  display: none;
+}
 .footer {
   border-top: #000 1px solid;
   width: 100%;
@@ -113,13 +123,11 @@ body {
 }
 
 .grid-container {
-  display: grid;
   margin: auto;
   max-width: 1002px;
-}
-.grid-container--fit {
-  grid-template-columns: repeat(auto-fit, minmax(496px, 496px));
   align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 .grid-element {
   position: relative;
@@ -175,5 +183,29 @@ button:focus {
 @media only screen and (max-width: 1040px) {
   .grid-container {
     max-width: 496px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+}
+
+@media only screen and (max-width: 680px) {
+  .nav-right {
+    float: right;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .nav-item {
+    display: none;
+  }
+  .nav-text{
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+    display: inline;
+  }
+  .nav-text{
+    padding-left: 14px;
   }
 }
