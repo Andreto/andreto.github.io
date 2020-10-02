@@ -134,25 +134,24 @@ body {
   padding: 0px;
   margin: 6px;
   color: #1f1f1f;
+  max-width: 489px;
 }
 .ge-img {
   height: 300px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  width: 489px;
 }
 .ge-text {
   background-color: #ffffff00;
-  height: 80px;
+  margin-bottom: 32px;
   padding-top: 2px;
   font-size: 36px;
   font-family: "Roboto Slab", serif;
   text-decoration: underline;
 }
 .ge-type {
-  position: absolute;
-  bottom: 82px;
-  right: 0;
+  position: relative;
+  bottom: 36px;
+  float: right;
   padding: 6px 20px;
   text-align: center;
   font-family: Calibri;
@@ -178,6 +177,12 @@ body {
 
 button:focus {
   outline: 0;
+}
+
+@media only screen and (min-width: 1041px) {
+  .ge-text{
+    height: 72px;
+  }
 }
 
 @media only screen and (max-width: 1040px) {
@@ -207,5 +212,12 @@ button:focus {
   }
   .nav-text{
     padding-left: 14px;
+  }
+  .ge-img {
+    height: auto;
+    max-width: calc(100vw - 50px);
+  }
+  .grid-element {
+    max-width: calc(100vw - 50px);
   }
 }

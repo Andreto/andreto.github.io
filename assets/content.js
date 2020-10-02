@@ -14,8 +14,7 @@ var content = {
       img: "https://andreto.github.io/assets/thumbnails/PewDiePieCurves.png",
       title: "Pewdiepie Chrome Theme",
       type: "Chrome Theme",
-      link:
-        "https://chrome.google.com/webstore/detail/subscribe-to-pewdiepie/hfkacekdehgbfkoeocipbagmaepoibba"
+      link: "https://chrome.google.com/webstore/detail/subscribe-to-pewdiepie/hfkacekdehgbfkoeocipbagmaepoibba"
     },
     CustomHighlight: {
       img: "https://andreto.github.io/assets/thumbnails/CustomHighlight.png",

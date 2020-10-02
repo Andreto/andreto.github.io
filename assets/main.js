@@ -5,9 +5,9 @@ function loadContent() {
     var crelmGE = document.createElement("a");
     crelmGE.className = "grid-element";
     crelmGE.href = object["link"];
-    var crelmImg = document.createElement("div");
+    var crelmImg = document.createElement("img");
     crelmImg.className = "ge-img";
-    crelmImg.style = "background-image:url(" + object["img"] + ");";
+    crelmImg.src = object["img"];
     var crelmText = document.createElement("div");
     crelmText.className = "ge-text";
     crelmText.innerHTML = object["title"];
@@ -15,8 +15,8 @@ function loadContent() {
     crelmType.className = "ge-type";
     crelmType.innerHTML = object["type"];
     crelmGE.appendChild(crelmImg);
-    crelmGE.appendChild(crelmText);
     crelmGE.appendChild(crelmType);
+    crelmGE.appendChild(crelmText);
 
     document.getElementById("main-grid").appendChild(crelmGE);
   }
