@@ -6,8 +6,6 @@ var content = {
     "SuperTyper",
     "Endless Buttons",
     "pewdiepietheme",
-    "A Walk In The Park",
-    "Happy Birthday Scratch"
   ],
   content: {
     pewdiepietheme: {
