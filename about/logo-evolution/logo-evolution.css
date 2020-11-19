@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Mukta, sans-serif;
+}
+
+.align {
+  width: 100%;
+  position: relative;
+}
+
+.content {
+  width: 1000px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.block {
+  border-top: solid 4px #eee;
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.header {
+  border: none;
+}
+
+.year {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 2em;
+  font-weight: bold;
+}
+.logo {
+  height: 200px;
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+}
