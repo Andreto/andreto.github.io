@@ -1,0 +1,37 @@
+<script>
+  function pageScroll() {
+    var elems = document.querySelectorAll(".nav-fill");
+    for (var i = 0; i < elems.length; i++) {
+      if (window.scrollY == 0) {
+        elems[i].style.boxShadow = "none";
+      } else {
+        elems[i].style.boxShadow = "0px 4px 8px -4px rgba(0,0,0,0.4)";
+      }
+    }
+  }
+</script>
+
+<style>
+  .navbar { margin: auto; max-width: 1000px; }
+  .nav-fill { width: 100%; background-color: #fff; box-shadow: none; transition: box-shadow 0.2s; position: fixed; top: 0; z-index: 1; }
+  .nav-bar { list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #fff; }
+  .nav-item { float: left; }
+  .nav-item a { display: block; color: #282c34; text-align: center; padding: 30px 26px 18px 26px; text-decoration: none; font-size: 16px; }
+  .nav-text a { font-family: "Segoe UI", Tahoma, sans-serif; font-size: 34px; padding: 14px 26px; padding-left: 12px; color: #282c34; }
+  .nav-img a { padding: 0px 0px; }
+  .nav-item a:hover { color: darkorange; }
+  .nav-text a:hover { color: #282c34; }
+  .nav-right { float: right; }
+  .nav-right a { padding: 21px 4px; font-size: 26px; }
+  #andreto-text-icon { height: 42px; margin-bottom: -8px; }
+</style>
+
+<div class="nav-fill">
+  <div class="navbar">
+    <ul class="nav-bar">
+      <li class="nav-item nav-text">
+        <a href="https://andreto.github.io"><img id="andreto-text-icon" src="/assets/Andreto.ico">Andreto</a>
+      </li>
+    </ul>
+  </div>
+</div>

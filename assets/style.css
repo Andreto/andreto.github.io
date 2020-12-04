@@ -40,6 +40,7 @@ body {
   padding: 30px 26px 18px 26px;
   text-decoration: none;
   font-size: 16px;
+  transition: color .2s;
 }
 .nav-text a {
   font-family: "Segoe UI", Tahoma, sans-serif;
@@ -83,12 +84,28 @@ body {
   padding-top: 20px;
 }
 .footer-item {
+  display: inline-block;
   margin: 0 10px;
   color: #000;
   text-decoration: none;
+  transition: color .3s;
 }
 .footer-item:hover {
   color: darkorange;
+}
+.footer-item::after {
+  content: '';
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: #000;
+  margin: auto;
+  transition: .3s;
+}
+
+.footer-item:hover::after {
+  width: 100%;
+  background: darkorange;
 }
 #footerGoogleAnalyticsInfo {
   margin-top: 20px;
@@ -97,6 +114,7 @@ body {
 .link-stelth {
   color: inherit;
   text-decoration: none;
+  transition: color .2s;
 }
 .link-stelth:hover {
   color: darkorange;
@@ -147,6 +165,7 @@ body {
   font-size: 36px;
   font-family: "Roboto Slab", serif;
   text-decoration: underline;
+  transition: color .2s;
 }
 .ge-type {
   position: relative;

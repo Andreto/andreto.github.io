@@ -4,8 +4,17 @@
     <link href="/about/logo-evolution/logo-evolution.css" rel="stylesheet" type="text/css" />
     <title>Andreto Logo Evolution</title>
     <link rel="icon" href="/assets/Andreto.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(function(){ $("#include-nav").load("/assets/nav.html"); });
+    </script>
   </head>
-  <body>
+  <body onscroll="pageScroll();">
+
+
+    <div id="include-nav"></div>
+
+
     <div class="align">
       <div class="content">
 
