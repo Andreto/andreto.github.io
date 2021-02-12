@@ -4,6 +4,7 @@ var content = {
     "BubbleBPM",
     "cufeap",
     "SuperTyper",
+    "pewdiepieminecraftprofile",
     "Endless Buttons",
     "pewdiepietheme",
   ],
@@ -13,6 +14,12 @@ var content = {
       title: "Pewdiepie Chrome Theme",
       type: "Chrome Theme",
       link: "https://chrome.google.com/webstore/detail/subscribe-to-pewdiepie/hfkacekdehgbfkoeocipbagmaepoibba"
+    },
+    pewdiepieminecraftprofile: {
+      img: "/assets/thumbnails/pew_minecraft_profile.png",
+      title: "Pewdiepie Minecraft Profiles",
+      type: "Image Gallery",
+      link: "https://andreto.github.io/pewdiepie-minecraft-profilepics/"
     },
     CustomHighlight: {
       img: "https://andreto.github.io/assets/thumbnails/CustomHighlight.png",
