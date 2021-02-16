@@ -1,8 +1,9 @@
 var content = {
   "content-list": [
     "CustomHighlight",
-    "BubbleBPM",
+    "SudokuGenerator",
     "cufeap",
+    "BubbleBPM",
     "SuperTyper",
     "pewdiepieminecraftprofile",
     "Endless Buttons",
@@ -22,10 +23,16 @@ var content = {
       link: "https://andreto.github.io/pewdiepie-minecraft-profilepics/"
     },
     CustomHighlight: {
-      img: "https://andreto.github.io/assets/thumbnails/CustomHighlight.png",
+      img: "/assets/thumbnails/CustomHighlight.png",
       title: "Custom Highlight",
       type: "Chrome Extension",
       link: "https://andreto.github.io/Custom-Highlight/"
+    },
+    SudokuGenerator: {
+      img: "/assets/thumbnails/sudoku.png",
+      title: "Sudoku Generator",
+      type: "Web Application",
+      link: "https://andreto.github.io/sudoku-generator/"
     },
     gobocf: {
       img: "https://andreto.github.io/assets/thumbnails/gobocf.png",
@@ -42,19 +49,19 @@ var content = {
     BubbleBPM: {
       img: "https://andreto.github.io/assets/thumbnails/BubbleBPM.png",
       title: "Bubble BPM",
-      type: "Web Aplication",
+      type: "Web Application",
       link: "https://andreto.github.io/BubbleBPM/"
     },
     SuperTyper: {
       img: "https://i.ibb.co/LP2tqCp/Supertyper.png",
       title: "Supertyper",
-      type: "Web Aplication",
+      type: "Web Application",
       link: "https://andreto.github.io/SuperTyper/"
     },
     "Endless Buttons": {
       img: "https://image.ibb.co/cJ21NK/click_me.jpg",
       title: "Endless Buttons",
-      type: "Web Aplication",
+      type: "Web Application",
       link: "https://andreto.github.io/EndlessButtons/"
     },
     "A Walk In The Park": {
@@ -78,10 +85,10 @@ var content = {
       type: "Scratch Project",
       link: "https://scratch.mit.edu/projects/217815588/"
     },
-    "Interactive Haloween Art": {
+    "Halloween": {
       img:
         "https://cdn2.scratch.mit.edu/get_image/project/182797742_480x360.png",
-      title: "Interactive Haloween Art",
+      title: "Interactive Halloween Art",
       type: "Scratch Project",
       link: "https://scratch.mit.edu/projects/182797742/"
     },
