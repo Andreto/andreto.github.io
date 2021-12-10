@@ -17,19 +17,19 @@ var content = {
       link: "https://chrome.google.com/webstore/detail/subscribe-to-pewdiepie/hfkacekdehgbfkoeocipbagmaepoibba"
     },
     pewdiepieminecraftprofile: {
-      img: "/assets/thumbnails/pew_minecraft_profile.png",
+      img: "./assets/thumbnails/pew_minecraft_profile.png",
       title: "Pewdiepie Minecraft Profiles",
       type: "Image Gallery",
       link: "https://andreto.github.io/pewdiepie-minecraft-profilepics/"
     },
     CustomHighlight: {
-      img: "/assets/thumbnails/CustomHighlight.png",
+      img: "./assets/thumbnails/CustomHighlight.png",
       title: "Custom Highlight",
       type: "Chrome Extension",
       link: "https://andreto.github.io/Custom-Highlight/"
     },
     SudokuGenerator: {
-      img: "/assets/thumbnails/sudoku.png",
+      img: "./assets/thumbnails/sudoku.png",
       title: "Sudoku Generator",
       type: "Web Application",
       link: "https://andreto.github.io/sudoku-generator/"
@@ -41,7 +41,7 @@ var content = {
       link: "https://gobo.cf"
     },
     cufeap: {
-      img: "https://andreto.github.io/scratchtools/assets/CufeaP.png",
+      img: "./assets/thumbnails/CufeaP.png",
       title: "CufeaP",
       type: "Scratch Tool",
       link: "https://andreto.github.io/CufeaP/"
