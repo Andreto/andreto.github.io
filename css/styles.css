@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+.content {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: black;
+    color: white;
+    font-family: "Aleo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    text-align: center;
+}
+
+.link-row a {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #2E3C4E;
+    transition: color 0.3s ease;
+}
+
+.link-row a:hover {
+    color: #324966;
+}
+
+.link-row {
+    display: flex;
+    justify-content: center; /* Aligns items horizontally */
+    align-items: center; /* Aligns items vertically */
+    gap: 10px; /* Adjusts spacing between items */
+}
+
+.link-row span {
+    font-size: 1em; /* Ensures the dot matches the text size */
+    color: #2E3C4E;
+}
